@@ -129,3 +129,12 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+
+############################
+# Configuration files
+############################
+config/*.json
+config/*.js
+config/*.ts
+config/database.ts

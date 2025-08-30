@@ -53,6 +53,11 @@
         "videos",
         "audios"
       ]
+    },
+    "details": {
+      "type": "component",
+      "component": "product.details",
+      "repeatable": true
     }
   }
 }
