@@ -385,6 +385,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
   };
   attributes: {
     articleDetails: Schema.Attribute.Text;
+    articleSubdetails: Schema.Attribute.String;
     code: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
