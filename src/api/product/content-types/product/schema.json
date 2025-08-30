@@ -58,6 +58,9 @@
       "type": "component",
       "component": "product.details",
       "repeatable": true
+    },
+    "articleDetails": {
+      "type": "text"
     }
   }
 }
